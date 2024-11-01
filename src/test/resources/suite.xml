@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suite name="Dailyfinance Automation with Rest-Assured">
+    <test name="Registration">
+        <classes>
+            <class name="testrunner.RegistrationTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Reset Password">
+        <classes>
+            <class name="testrunner.ResetPasswordTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Updated Gmail Login">
+        <classes>
+            <class name="testrunner.UpdateUserLoginTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Admin Login">
+        <classes>
+            <class name="testrunner.AdminLoginTestRunner"></class>
+        </classes>
+    </test>
+</suite>
